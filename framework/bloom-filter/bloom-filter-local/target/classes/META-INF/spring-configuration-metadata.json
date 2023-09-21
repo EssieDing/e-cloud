@@ -1,0 +1,19 @@
+{
+  "groups": [
+    {
+      "name": "org.yuxin.ecloud.bloom.filter.local",
+      "type": "org.yuxin.ecloud.bloom.filter.local.LocalBloomFilterConfig",
+      "sourceType": "org.yuxin.ecloud.bloom.filter.local.LocalBloomFilterConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "org.yuxin.ecloud.bloom.filter.local.items",
+      "type": "java.util.List<org.yuxin.ecloud.bloom.filter.local.LocalBloomFilterConfigItem>",
+      "description": "需要用的布隆过滤器的集合",
+      "sourceType": "org.yuxin.ecloud.bloom.filter.local.LocalBloomFilterConfig",
+      "defaultValue": null
+    }
+  ],
+  "hints": []
+}
