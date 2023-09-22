@@ -107,7 +107,7 @@ public class FileTest {
         Assert.notNull(fileId);
 
         UpdateFilenameContext updateFilenameContext = new UpdateFilenameContext();
-        updateFilenameContext.setFileId(fileId + 1);
+        updateFilenameContext.setFileId(fileId + 1); // test
         updateFilenameContext.setUserId(userId);
         updateFilenameContext.setNewFilename("folder-name-new");
 
@@ -132,7 +132,7 @@ public class FileTest {
 
         UpdateFilenameContext updateFilenameContext = new UpdateFilenameContext();
         updateFilenameContext.setFileId(fileId);
-        updateFilenameContext.setUserId(userId + 1);
+        updateFilenameContext.setUserId(userId + 1); //test
         updateFilenameContext.setNewFilename("folder-name-new");
 
         iUserFileService.updateFilename(updateFilenameContext);
@@ -157,7 +157,7 @@ public class FileTest {
         UpdateFilenameContext updateFilenameContext = new UpdateFilenameContext();
         updateFilenameContext.setFileId(fileId);
         updateFilenameContext.setUserId(userId);
-        updateFilenameContext.setNewFilename("folder-name");
+        updateFilenameContext.setNewFilename("folder-name"); // same name
 
         iUserFileService.updateFilename(updateFilenameContext);
     }
@@ -188,7 +188,7 @@ public class FileTest {
         UpdateFilenameContext updateFilenameContext = new UpdateFilenameContext();
         updateFilenameContext.setFileId(fileId);
         updateFilenameContext.setUserId(userId);
-        updateFilenameContext.setNewFilename("folder-name-1");
+        updateFilenameContext.setNewFilename("folder-name-1"); // sibling file folder
 
         iUserFileService.updateFilename(updateFilenameContext);
     }

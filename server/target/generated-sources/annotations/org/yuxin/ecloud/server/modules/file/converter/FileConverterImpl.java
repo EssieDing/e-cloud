@@ -28,7 +28,7 @@ import org.yuxin.ecloud.storage.engine.core.context.StoreFileChunkContext;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-09-11T10:51:27-0400",
+    date = "2023-09-21T12:02:06-0400",
     comments = "version: 1.5.2.Final, compiler: javac, environment: Java 1.8.0_361 (Oracle Corporation)"
 )
 @Component
