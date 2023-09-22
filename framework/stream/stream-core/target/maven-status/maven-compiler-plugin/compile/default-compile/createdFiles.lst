@@ -1,0 +1,4 @@
+org/yuxin/ecloud/stream/core/DefaultStreamProducer.class
+org/yuxin/ecloud/stream/core/AbstractStreamProducer.class
+org/yuxin/ecloud/stream/core/AbstractConsumer.class
+org/yuxin/ecloud/stream/core/IStreamProducer.class

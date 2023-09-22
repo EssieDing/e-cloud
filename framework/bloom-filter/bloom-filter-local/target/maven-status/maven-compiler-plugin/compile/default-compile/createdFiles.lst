@@ -1,0 +1,6 @@
+org/yuxin/ecloud/bloom/filter/local/LocalBloomFilter.class
+META-INF/spring-configuration-metadata.json
+org/yuxin/ecloud/bloom/filter/local/LocalBloomFilterConfig.class
+org/yuxin/ecloud/bloom/filter/local/FunnelType.class
+org/yuxin/ecloud/bloom/filter/local/LocalBloomFilterConfigItem.class
+org/yuxin/ecloud/bloom/filter/local/LocalBloomFilterManager.class

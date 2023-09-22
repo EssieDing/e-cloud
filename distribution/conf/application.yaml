@@ -16,8 +16,9 @@ spring:
             max-request-size: 3072MB
     datasource:
         username: root
-        password: 123
-        url: jdbc:mysql://127.0.0.1:3306/e_cloud?characterEncoding=utf8&serverTimeZone=EDT&useSSL=false&allowPublicKeyRetrieval=true
+        password: 123456789
+        #url: jdbc:mysql://127.0.0.1:3306/e_cloud?characterEncoding=utf8mb4&serverTimezone=America/New_York&useSSL=false&allowPublicKeyRetrieval=true
+        url: jdbc:mysql://127.0.0.1:3306/e_cloud?characterEncoding=utf8mb4&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
         driver-class-name: com.mysql.cj.jdbc.Driver
     cloud:
         stream:

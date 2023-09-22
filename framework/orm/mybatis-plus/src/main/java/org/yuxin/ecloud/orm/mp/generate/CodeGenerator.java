@@ -73,7 +73,7 @@ public class CodeGenerator {
 
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/e_cloud?characterEncoding=utf8&serverTimezone=EDT&useSSL=false&allowPublicKeyRetrieval=true");
+        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/e_cloud?characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&&serverTimezone=Asia/Shanghai");
         dsc.setDbType(DbType.MYSQL);
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername(username);

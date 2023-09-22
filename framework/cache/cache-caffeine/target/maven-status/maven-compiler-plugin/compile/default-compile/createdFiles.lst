@@ -1,0 +1,3 @@
+META-INF/spring-configuration-metadata.json
+org/yuxin/ecloud/cache/caffeine/config/CaffeineCacheConfig.class
+org/yuxin/ecloud/cache/caffeine/config/CaffeineCacheProperties.class
